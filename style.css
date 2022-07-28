@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+}
+
+.main {
+    background-color: #C4C4C4;
+    display: block;
+    min-height: 100vh;
+    width: 600px;
+    margin: 0 auto;
+    border: 1px solid #c4c4c4;
+}
+
+.main__input {
+    width: 80%;
+    margin: 50px auto 0 auto;
+    display: block;
+    height: 30px;
+    padding: 0 10px;
+    font-size: 16px;
+}
+
+.main-input__api-names{
+    width: 80%;
+    height: 35px;
+    margin: 0 auto;
+    padding: 0 10px;
+    background-color: #E3E3E3;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+}
+.main-input__api-names:hover {
+    background-color: #a1a4a5;
+    cursor: pointer;
+}
+
+.main-input__api-names:active {
+    color: aqua;
+}
+
+.listOfRepositories {
+    width: 84%;
+    margin: 0 auto;
+    margin-top: 70px;
+}
+
+.closeButton {
+    background-image: url(./img/close2.svg);
+    background-repeat: no-repeat;
+    background-color: #dfdfdf;
+    border: none;
+    width: 25px;
+    height: 25px;
+    position: relative;
+    top: -55px;
+    left: 465px;
+}
+
+.main-list__api-names {
+    background-color: #dfdfdf;
+    margin-top: -40px;
+    padding-left: 10px;
+}
+
